@@ -5,9 +5,11 @@ public class Principal {
         filme1.anoDeLancamento = 2015;
         filme1.duracaoEmMinutos = 10;
 
-        System.out.println(filme1.nome);
-        System.out.println(filme1.anoDeLancamento);
-        System.out.println(filme1.duracaoEmMinutos);
-        Filme filme2 = new Filme();
+        filme1.exibeFichaTecnica();
+        filme1.avalia(8);
+        filme1.avalia(8);
+        filme1.avalia(8);
+        System.out.println(filme1.somaDasAvaliacoes);
+        System.out.println(filme1.pegaMedia());
     }
 }
