@@ -9,7 +9,11 @@ public class Principal {
         filme1.avalia(8);
         filme1.avalia(8);
         filme1.avalia(8);
-        System.out.println(filme1.somaDasAvaliacoes);
+        System.out.println("Total de avaliações: " + filme1.getTotalAvaliacoes());
         System.out.println(filme1.pegaMedia());
+
+        //meuFilme.somaDasAvaliacoes = 10;
+        //meuFilme.totalDeAvaliacoes = 1;
+        //System.out.println(meuFilme.pegaMedia());
     }
 }
